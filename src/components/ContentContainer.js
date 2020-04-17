@@ -19,7 +19,7 @@ export default function GetContent() {
     }, []);
     return (
       <div className='content-container'>
-        <Content explanation={info.explanation} image={info.hdurl} title={info.title}/>
+        <Content date={info.date} explanation={info.explanation} image={info.hdurl} title={info.title}/>
       </div>
     )
     }
